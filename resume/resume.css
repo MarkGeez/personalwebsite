@@ -1,0 +1,137 @@
+*, html {
+    scroll-behavior: smooth !important;
+}
+
+body {
+    background-color: #A6B6B9;
+    overflow-x: hidden;
+}
+
+.navbar ul {
+    list-style: none;
+    background-color: white;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+}
+
+p {
+    color: black;
+    font-family: Tahoma, Helvetica, Verdana;
+    text-shadow: #ffd9e3;
+    line-height: 1.5;
+}
+
+.navbar a {
+    color: #0000ff;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.navbar a:hover {
+    background-color: #ffcde2;
+    color: navy;
+    font-weight: bold;
+}
+
+.navbar li {
+    float: left;
+}
+
+h1 {
+    color: #000000;
+    font-family: 'Georgia', 'Garamond', 'Baskerville';
+    font-weight: bold;
+}
+
+.h1Top {
+    text-align: center;
+    font-family: 'Georgia', 'Garamond', 'Baskerville';
+    color: #000000;
+    font-style: italic;
+}
+
+.resumeSec {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.ResumePicture {
+    margin-right: 20px;
+}
+
+.resumeText ol {
+    list-style-type: decimal;
+    padding: 0;
+}
+
+.resumeText li {
+    margin-bottom: 20px;
+}
+
+.resumeText ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.resumeText .tech {
+    list-style-type: square;
+}
+
+.resumeText .school {
+    list-style-type: circle;
+}
+
+.resumeText .Skills {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 5px;
+}
+.resumeText .Certifications{
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 5px;
+}
+
+.resumeText #hobbies {
+    list-style-type: upper-roman;
+}
+
+footer a {
+    color: rgb(56, 105, 249);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    margin-left: 85%;
+    scroll-behavior: smooth;
+}
+
+footer a:hover {
+    color: #0036b1;
+}
+
+footer {
+    padding-bottom: 20px;
+    margin: 0px 35px;
+    text-align: left;
+}
+
+h2 {
+    display: flex;
+    align-items: center;
+    color: #800020;
+}
+
+h2 i {
+    margin-right: 10px;
+}
